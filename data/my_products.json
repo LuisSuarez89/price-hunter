@@ -1,0 +1,222 @@
+{
+  "version": "1.0",
+  "description": "Canasta de referencia personal — actualizar cuando cambie la lista de compras habitual",
+  "products": [
+    {
+      "id": "salmon_filete",
+      "name": "Filete de salmón",
+      "category": "carnes",
+      "unit": "und",
+      "typical_qty": 2,
+      "search_terms": ["salmon", "filete salmon", "filetes de salmon"],
+      "note": "Presentación empacada individual ~200g"
+    },
+    {
+      "id": "pechuga_pollo",
+      "name": "Filete de pechuga de pollo",
+      "category": "carnes",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["pechuga", "filete pechuga", "filetes de pe"],
+      "note": "Presentación empacada ~500g"
+    },
+    {
+      "id": "molida_res",
+      "name": "Carne molida de res",
+      "category": "carnes",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["molida de res", "carne molida", "molida res"],
+      "note": "85/15 preferiblemente"
+    },
+    {
+      "id": "costilla_res",
+      "name": "Costilla de res",
+      "category": "carnes",
+      "unit": "kg",
+      "typical_qty": 1.0,
+      "search_terms": ["costilla res", "costilla de res", "costilla carn"],
+      "note": "Precio por kg"
+    },
+    {
+      "id": "lomo_cerdo",
+      "name": "Lomo de cerdo",
+      "category": "carnes",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["lomo de cerdo", "lomo cerdo", "lomo cerdo red"],
+      "note": "Presentación empacada"
+    },
+    {
+      "id": "chorizo",
+      "name": "Chorizo campesino",
+      "category": "carnes",
+      "unit": "und",
+      "typical_qty": 2,
+      "search_terms": ["chorizo", "chorizo campe", "chorizo campesino"],
+      "note": "Paquete individual"
+    },
+    {
+      "id": "salchicha",
+      "name": "Salchicha parrilla",
+      "category": "carnes",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["salchicha", "salchicha par", "salchicha parrilla"],
+      "note": "Paquete estándar"
+    },
+    {
+      "id": "jamon",
+      "name": "Jamón sándwich",
+      "category": "carnes",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["jamon", "jamon sandwich", "jamon mixto"],
+      "note": "Paquete ~250-600g"
+    },
+    {
+      "id": "huevo_90",
+      "name": "Huevo rojo amarrado x90",
+      "category": "lacteos_huevos",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["huevo amarrado", "huevo rojo", "huevo 90"],
+      "note": "Bandeja o amarrado x90"
+    },
+    {
+      "id": "queso_mozzarella",
+      "name": "Queso mozzarella tajado",
+      "category": "lacteos_huevos",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["queso mozzarella", "queso mozz", "queso mozzare"],
+      "note": "Paquete tajado ~750g"
+    },
+    {
+      "id": "yogurt_mora",
+      "name": "Yogurt mora 2L",
+      "category": "lacteos_huevos",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["yogurt mora", "yogurt 2l"],
+      "note": "Garrafa 2 litros"
+    },
+    {
+      "id": "arroz_blanco",
+      "name": "Arroz blanco 5kg",
+      "category": "despensa",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["arroz blanco", "arroz alkosto", "arroz 5kg", "arroz 5 kg"],
+      "note": "Bolsa 5kg — precio/kg para comparar"
+    },
+    {
+      "id": "azucar",
+      "name": "Azúcar blanca 2.5kg",
+      "category": "despensa",
+      "unit": "und",
+      "typical_qty": 2,
+      "search_terms": ["azucar", "azúcar blanca", "azucar blanca", "azucar manuelita"],
+      "note": "Comparar precio/kg"
+    },
+    {
+      "id": "aceite_vegetal",
+      "name": "Aceite vegetal/girasol 3L",
+      "category": "despensa",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["aceite vegetal", "aceite girasol", "aceite vegeta"],
+      "note": "Botella 3L — precio/L para comparar"
+    },
+    {
+      "id": "cafe_granulado",
+      "name": "Café instantáneo granulado 500g",
+      "category": "despensa",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["cafe instantaneo", "cafe instan", "cafe granulado", "cafe instanta"],
+      "note": "SIEMPRE empaque grande 500g — más barato por gramo"
+    },
+    {
+      "id": "sal",
+      "name": "Sal 1kg",
+      "category": "despensa",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["sal refisal", "sal bolsa", "sal 1kg"],
+      "note": "Bolsa 1kg"
+    },
+    {
+      "id": "lenteja",
+      "name": "Lenteja",
+      "category": "despensa",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["lenteja", "lenteja el es"],
+      "note": "Paquete estándar"
+    },
+    {
+      "id": "frijol",
+      "name": "Fríjol bola roja",
+      "category": "despensa",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["frijol", "fríjol", "frijol bola", "frijol bola r"],
+      "note": "Paquete estándar"
+    },
+    {
+      "id": "pasta_spaghetti",
+      "name": "Spaghetti / pasta",
+      "category": "despensa",
+      "unit": "und",
+      "typical_qty": 2,
+      "search_terms": ["spaghetti", "pasta", "fusilli", "fideo", "fideo doria"],
+      "note": "Cualquier presentación de pasta"
+    },
+    {
+      "id": "pan_tajado",
+      "name": "Pan tajado grande",
+      "category": "despensa",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["pan tajado", "pan taj", "pan tajado ar"],
+      "note": "Presentación grande ~550g"
+    },
+    {
+      "id": "detergente_liquido",
+      "name": "Detergente líquido 4L",
+      "category": "aseo_hogar",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["detergente liquido", "det liquido", "detergente liq"],
+      "note": "Botella 4L"
+    },
+    {
+      "id": "desinfectante",
+      "name": "Desengrasante / desinfectante 1L",
+      "category": "aseo_hogar",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["desengrasante", "desinfectante", "desinf", "desengras"],
+      "note": "Botella 1L — comparar precio/L"
+    },
+    {
+      "id": "jabon_lavar",
+      "name": "Jabón para lavar ropa",
+      "category": "aseo_hogar",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["jabon lavar", "jabón lavar", "jabon lav"],
+      "note": "Paquete barra o líquido"
+    },
+    {
+      "id": "jabon_tocador",
+      "name": "Jabón de tocador x6",
+      "category": "aseo_personal",
+      "unit": "und",
+      "typical_qty": 1,
+      "search_terms": ["jabon tocador", "jabón tocador", "jab toc", "protex", "dove"],
+      "note": "Pack x6 unidades"
+    }
+  ]
+}

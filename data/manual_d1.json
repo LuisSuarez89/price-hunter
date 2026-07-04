@@ -1,0 +1,84 @@
+{
+  "_note": "Precios manuales de D1 basados en tus facturas reales. Actualizar mensualmente si cambían.",
+  "_last_updated": "2026-07-03",
+  "salmon_filete": {
+    "name": "Filetes de salmón D1",
+    "price": 21950,
+    "note": "Precio consistente en múltiples compras"
+  },
+  "pechuga_pollo": {
+    "name": "Filetes de pechuga D1",
+    "price": 16800,
+    "note": "Presentación empacada"
+  },
+  "molida_res": {
+    "name": "Molida de res 85/15 D1",
+    "price": 14950,
+    "note": "Precio estable"
+  },
+  "costilla_res": {
+    "name": "Costilla carnuda D1",
+    "price": 10850,
+    "note": "Presentación empacada"
+  },
+  "lomo_cerdo": {
+    "name": "Lomo de cerdo D1",
+    "price": 13450,
+    "note": "Presentación empacada"
+  },
+  "chorizo": {
+    "name": "Chorizo campesino D1",
+    "price": 4990,
+    "note": "Precio por unidad (x2 = $9.980)"
+  },
+  "salchicha": {
+    "name": "Salchicha parrilla D1",
+    "price": 9300,
+    "note": "Precio estable"
+  },
+  "jamon": {
+    "name": "Jamón sándwich D1",
+    "price": 9490,
+    "note": "Precio estable"
+  },
+  "arroz_blanco": {
+    "name": "Arroz económi D1",
+    "price": 5550,
+    "note": "Por bolsa — revisar gramaje"
+  },
+  "azucar": {
+    "name": "Azúcar blanca D1",
+    "price": 3300,
+    "note": "Precio por unidad"
+  },
+  "aceite_vegetal": {
+    "name": "Aceite vegetal D1",
+    "price": 21450,
+    "note": "Revisar litros exactos"
+  },
+  "cafe_granulado": {
+    "name": "Café instantáneo D1",
+    "price": 9650,
+    "note": "Presentación pequeña — comparar con 500g Alkosto"
+  },
+  "pasta_spaghetti": {
+    "name": "Spaghetti / fideo D1",
+    "price": 3990,
+    "note": "Por paquete"
+  },
+  "pan_tajado": {
+    "name": "Pan tajado D1",
+    "price": 4990,
+    "note": "Presentación grande"
+  },
+  "lenteja": {
+    "name": "Lenteja D1",
+    "price": 2100,
+    "note": "Excelente precio"
+  },
+  "frijol": {
+    "name": "Fríjol bola roja D1",
+    "price": 7390,
+    "note": "Precio por bolsa"
+  }
+}

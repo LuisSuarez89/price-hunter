@@ -1,0 +1,82 @@
+name: SOS Price Hunter — reporte mensual
+
+on:
+  schedule:
+    # Día 25 de cada mes a las 8:00 AM (hora Colombia = UTC-5, entonces 13:00 UTC)
+    - cron: "0 13 25 * *"
+  workflow_dispatch:
+    # Permite correr manualmente desde GitHub Actions
+    inputs:
+      stores:
+        description: "Tiendas a revisar (separadas por coma)"
+        required: false
+        default: "d1,ara,alkosto,makro"
+      skip_email:
+        description: "Solo generar HTML sin enviar email"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+jobs:
+  price-hunt:
+    name: Scraping y reporte de precios
+    runs-on: ubuntu-latest
+    timeout-minutes: 30       # máximo 30 min para no consumir minutos de Actions
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar pipeline de precios
+        env:
+          # URL del Web App de Google Apps Script (Settings → Secrets → APPS_SCRIPT_URL)
+          APPS_SCRIPT_URL: ${{ secrets.APPS_SCRIPT_URL }}
+        run: |
+          STORES="${{ github.event.inputs.stores || 'd1,ara,alkosto,makro' }}"
+          SKIP_EMAIL="${{ github.event.inputs.skip_email || 'false' }}"
+
+          CMD="python main.py --stores $STORES"
+          if [ "$SKIP_EMAIL" = "true" ]; then
+            CMD="$CMD --skip-email"
+          fi
+
+          echo "Corriendo: $CMD"
+          $CMD
+
+      - name: Guardar reporte HTML como artifact
+        uses: actions/upload-artifact@v4
+        if: always()    # guardar aunque falle el email
+        with:
+          name: price-report-${{ github.run_number }}
+          path: |
+            reports/
+            data/comparison_*.json
+          retention-days: 90
+
+      - name: Resumen en el log de Actions
+        if: always()
+        run: |
+          echo "## Resultados SOS Price Hunter" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/comparison_*.json ]; then
+            python -c "
+import json, glob
+files = glob.glob('data/comparison_*.json')
+if files:
+    with open(files[-1]) as f:
+        d = json.load(f)
+    print(f'- Productos comparados: {d[\"products_compared\"]}')
+    print(f'- Tiendas encontradas: {\", \".join(d[\"stores_found\"])}')
+    print(f'- Ahorro estimado: \${d[\"total_savings_estimate\"]:,.0f} COP')
+" >> $GITHUB_STEP_SUMMARY
+          fi
