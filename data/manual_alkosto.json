@@ -1,0 +1,99 @@
+{
+  "_note": "Precios reales de Alkosto basados en facturas históricas. Incluir % descuento cuando aplicó.",
+  "_last_updated": "2026-07-04",
+  "salmon_filete": {
+    "name": "Cep Dent Oral-B Radian Medio x5",
+    "price": 41900,
+    "discount_pct": 45,
+    "original_price": 76200,
+    "note": "Alkosto no vende salmón — este item corresponde al Oral-B que aparecía en las facturas"
+  },
+  "huevo_90": {
+    "name": "Huevo Amarrado Rojo Alkosto 90u",
+    "price": 43380,
+    "discount_pct": 17.47,
+    "original_price": 52500
+  },
+  "arroz_blanco": {
+    "name": "Arroz Alkosto Blanco 5Kg",
+    "price": 15900,
+    "discount_pct": 0
+  },
+  "azucar": {
+    "name": "Azucar Manuelita 2.5K",
+    "price": 9400,
+    "discount_pct": 30,
+    "original_price": 13400
+  },
+  "aceite_vegetal": {
+    "name": "Aceite Girasol Alkosto 3L",
+    "price": 27900,
+    "discount_pct": 0
+  },
+  "cafe_granulado": {
+    "name": "Cafe Instan Alkosto Granu 500g",
+    "price": 48900,
+    "discount_pct": 0,
+    "note": "SIEMPRE el de 500g — el de 170g sale a $37.900 pero es el doble de caro por gramo"
+  },
+  "molida_res": {
+    "name": "Molida de Res Bja kg",
+    "price": 14950,
+    "discount_pct": 0
+  },
+  "costilla_res": {
+    "name": "Cubos de Res Listh Bja ks",
+    "price": 24366,
+    "discount_pct": 20,
+    "original_price": 30458
+  },
+  "chorizo": {
+    "name": "Chorizo Colanta S/Rosano 500g",
+    "price": 18950,
+    "discount_pct": 30,
+    "original_price": 27071
+  },
+  "jamon": {
+    "name": "Jamon Seleccionad Colanta 450g",
+    "price": 18950,
+    "discount_pct": 30,
+    "original_price": 27071
+  },
+  "yogurt_mora": {
+    "name": "Yogurt Mora Alkosto 2L",
+    "price": 20900,
+    "discount_pct": 0
+  },
+  "queso_mozzarella": {
+    "name": "Quesillo Alkosto Tajado 750g",
+    "price": 20900,
+    "discount_pct": 0
+  },
+  "detergente_liquido": {
+    "name": "Det Alkosto Liquido Floral 4L",
+    "price": 19500,
+    "discount_pct": 0
+  },
+  "desinfectante": {
+    "name": "Desengras Desinf Alk Citrus 1L",
+    "price": 4900,
+    "discount_pct": 0
+  },
+  "jabon_lavar": {
+    "name": "Jabon Lav Super Riel 280gx3",
+    "price": 7400,
+    "discount_pct": 25,
+    "original_price": 9867
+  },
+  "jabon_tocador": {
+    "name": "Jab Toc Protex Herbal 110g x6u",
+    "price": 23900,
+    "discount_pct": 25,
+    "original_price": 31867
+  },
+  "pan_tajado": {
+    "name": "Pan Taj Alk Manteq Ex/Lar 550g",
+    "price": 5300,
+    "discount_pct": 0
+  }
+}
