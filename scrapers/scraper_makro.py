@@ -25,14 +25,14 @@ from scrapers.base_scraper import BaseScraper, PriceResult
 class MakroScraper(BaseScraper):
 
     STORE_NAME = "makro"
-    BASE_URL   = "https://www.makro.com.co"
-    SEARCH_URL = "https://www.makro.com.co/catalogsearch/result/?q={query}"
+    BASE_URL   = "https://tienda.makro.com.co/"
+    SEARCH_URL = "https://tienda.makro.com.co/search?name={query}"
 
     HEADERS = {
         "User-Agent":    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36",
         "Accept":        "text/html,application/xhtml+xml,*/*;q=0.8",
         "Accept-Language": "es-CO,es;q=0.9",
-        "Referer":       "https://www.makro.com.co/",
+        "Referer":       "https://tienda.makro.com.co/",
     }
 
     def search_product(self, product: dict) -> list[PriceResult]:
