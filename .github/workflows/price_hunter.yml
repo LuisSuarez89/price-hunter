@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       stores:
-        description: "Tiendas a revisar (separadas por coma)"
+        description: "Tiendas (separadas por coma)"
         required: false
-        default: "d1,ara,alkosto,makro"
+        default: "d1,ara,alkosto,makro,olimpica"
       skip_email:
-        description: "Solo generar HTML sin enviar email"
+        description: "Solo HTML sin enviar email"
         required: false
         default: "false"
         type: choice
@@ -22,7 +22,7 @@ jobs:
   price-hunt:
     name: Scraping y reporte de precios
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout repositorio
@@ -41,7 +41,7 @@ jobs:
         env:
           APPS_SCRIPT_URL: ${{ secrets.APPS_SCRIPT_URL }}
         run: |
-          STORES="${{ github.event.inputs.stores || 'd1,ara,alkosto,makro' }}"
+          STORES="${{ github.event.inputs.stores || 'd1,ara,alkosto,makro,olimpica' }}"
           SKIP_EMAIL="${{ github.event.inputs.skip_email || 'false' }}"
           CMD="python main.py --stores $STORES"
           if [ "$SKIP_EMAIL" = "true" ]; then
@@ -50,7 +50,7 @@ jobs:
           echo "Corriendo: $CMD"
           $CMD
 
-      - name: Guardar reporte HTML como artifact
+      - name: Guardar reporte como artifact
         uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -60,6 +60,6 @@ jobs:
             data/comparison_*.json
           retention-days: 90
 
-      - name: Resumen en el log de Actions
+      - name: Resumen en Actions
         if: always()
         run: python scripts/summary.py >> $GITHUB_STEP_SUMMARY

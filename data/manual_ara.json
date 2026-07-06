@@ -1,0 +1,63 @@
+{
+  "_note": "Precios de Ara extraídos de folletos PDF semanales. Actualizar cuando el scraper del PDF falle.",
+  "_last_updated": "2026-07-04",
+  "_source": "Folleto DIGITAL-NACIONAL S6-VF.pdf (feb 2026)",
+  "arroz_blanco": {
+    "name": "Arroz Diana 5.000g",
+    "price": 15900,
+    "discount_pct": 0
+  },
+  "azucar": {
+    "name": "Azúcar blanca 2.500g",
+    "price": 8900,
+    "discount_pct": 0
+  },
+  "aceite_vegetal": {
+    "name": "Aceite vegetal 900ml",
+    "price": 7200,
+    "discount_pct": 0,
+    "note": "Presentación de 900ml — más pequeña que Alkosto 3L"
+  },
+  "cafe_granulado": {
+    "name": "Café Monumental 500g",
+    "price": 21900,
+    "discount_pct": 0
+  },
+  "pasta_spaghetti": {
+    "name": "Spaghetti A La Mesa 500g",
+    "price": 2900,
+    "discount_pct": 0
+  },
+  "pan_tajado": {
+    "name": "Pan Tajado Amapan 450g",
+    "price": 4800,
+    "discount_pct": 0
+  },
+  "jamon": {
+    "name": "Jamón Kai 400g",
+    "price": 9900,
+    "discount_pct": 0
+  },
+  "detergente_liquido": {
+    "name": "Det Edén Multiusos 1.000ml",
+    "price": 4900,
+    "discount_pct": 0,
+    "note": "Presentación 1L — comparar con 4L de Alkosto"
+  },
+  "desinfectante": {
+    "name": "Limpia Agente X 1.000ml",
+    "price": 3900,
+    "discount_pct": 0
+  },
+  "sal": {
+    "name": "Sal 1kg Ara",
+    "price": 1500,
+    "discount_pct": 0
+  },
+  "huevo_90": {
+    "name": "Huevo tipo AA x30",
+    "price": 14900,
+    "discount_pct": 0,
+    "note": "Precio por x30 — ajustar comparación vs 90u de Alkosto"
+  }
+}

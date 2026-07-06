@@ -114,7 +114,7 @@ class D1Scraper(BaseScraper):
             or (data if isinstance(data, list) else [])
         )
 
-        for item in items[:3]:
+        for item in items[:self.MAX_RESULTS_PER_PRODUCT]:
             name  = (
                 item.get("name")
                 or item.get("title")

@@ -105,7 +105,7 @@ class AlkostoScraper(BaseScraper):
             or data.get("searchResults", {}).get("products", [])
             or []
         )
-        for item in items[:3]:
+        for item in items[:self.MAX_RESULTS_PER_PRODUCT]:
             name = item.get("name") or item.get("summary") or ""
             # Hybris anida el precio en un objeto
             price_obj = item.get("price") or item.get("priceRange", {}).get("minPrice", {}) or {}
@@ -145,7 +145,7 @@ class AlkostoScraper(BaseScraper):
                                 results.append(r)
             except Exception:
                 continue
-        return results[:3]
+        return results[:self.MAX_RESULTS_PER_PRODUCT]
 
     def _from_ld(self, item: dict, product: dict) -> "PriceResult | None":
         name   = item.get("name", "")
