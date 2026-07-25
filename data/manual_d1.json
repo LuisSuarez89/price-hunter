@@ -1,84 +1,27 @@
 {
-  "_note": "Precios manuales de D1 basados en tus facturas reales. Actualizar mensualmente si cambían.",
-  "_last_updated": "2026-07-03",
-  "salmon_filete": {
-    "name": "Filetes de salmón D1",
-    "price": 21950,
-    "note": "Precio consistente en múltiples compras"
-  },
-  "pechuga_pollo": {
-    "name": "Filetes de pechuga D1",
-    "price": 16800,
-    "note": "Presentación empacada"
-  },
-  "molida_res": {
-    "name": "Molida de res 85/15 D1",
-    "price": 14950,
-    "note": "Precio estable"
-  },
-  "costilla_res": {
-    "name": "Costilla carnuda D1",
-    "price": 10850,
-    "note": "Presentación empacada"
-  },
-  "lomo_cerdo": {
-    "name": "Lomo de cerdo D1",
-    "price": 13450,
-    "note": "Presentación empacada"
-  },
-  "chorizo": {
-    "name": "Chorizo campesino D1",
-    "price": 4990,
-    "note": "Precio por unidad (x2 = $9.980)"
-  },
-  "salchicha": {
-    "name": "Salchicha parrilla D1",
-    "price": 9300,
-    "note": "Precio estable"
-  },
-  "jamon": {
-    "name": "Jamón sándwich D1",
-    "price": 9490,
-    "note": "Precio estable"
-  },
-  "arroz_blanco": {
-    "name": "Arroz económi D1",
-    "price": 5550,
-    "note": "Por bolsa — revisar gramaje"
-  },
-  "azucar": {
-    "name": "Azúcar blanca D1",
-    "price": 3300,
-    "note": "Precio por unidad"
-  },
-  "aceite_vegetal": {
-    "name": "Aceite vegetal D1",
-    "price": 21450,
-    "note": "Revisar litros exactos"
-  },
-  "cafe_granulado": {
-    "name": "Café instantáneo D1",
-    "price": 9650,
-    "note": "Presentación pequeña — comparar con 500g Alkosto"
-  },
-  "pasta_spaghetti": {
-    "name": "Spaghetti / fideo D1",
-    "price": 3990,
-    "note": "Por paquete"
-  },
-  "pan_tajado": {
-    "name": "Pan tajado D1",
-    "price": 4990,
-    "note": "Presentación grande"
-  },
-  "lenteja": {
-    "name": "Lenteja D1",
-    "price": 2100,
-    "note": "Excelente precio"
-  },
-  "frijol": {
-    "name": "Fríjol bola roja D1",
-    "price": 7390,
-    "note": "Precio por bolsa"
-  }
+  "_note": "Precios manuales D1. Última actualización: tiquete 2026-07-23.",
+  "_last_updated": "2026-07-23",
+  "salmon_filete":    {"name":"Filetes de Salmón D1","price":21950,"quantity_display":"~350g"},
+  "trucha_filete":    {"name":"Trucha Captain Bay D1","price":23900,"quantity_display":"~350g est.","note":"Nuevo jul-2026. Alternativa al salmón"},
+  "pechuga_pollo":    {"name":"Filetes de Pechuga D1","price":16800,"quantity_display":"~500g"},
+  "molida_res":       {"name":"Carne Molida Res 85/15 D1","price":14950,"quantity_display":"~500g"},
+  "costilla_res":     {"name":"Costilla Carnuda D1","price":10850,"quantity_display":"und"},
+  "lomo_cerdo":       {"name":"Lomo de Cerdo D1","price":13450,"quantity_display":"und"},
+  "chorizo":          {"name":"Chorizo Campesino D1","price":4990,"quantity_display":"und"},
+  "salchicha":        {"name":"Salchicha Tradicional D1","price":6750,"quantity_display":"und","note":"Bajó de $9.300"},
+  "jamon":            {"name":"Jamón Sándwich D1","price":9490,"quantity_display":"und"},
+  "hamburguesa":      {"name":"Hamburguesa D D1","price":10400,"quantity_display":"und"},
+  "queso_mozzarella": {"name":"Queso Mozzarella D1","price":10500,"quantity_display":"~500g est."},
+  "arroz_blanco":     {"name":"Arroz Estándar D1","price":7490,"quantity_display":"und","note":"ALERTA: gramaje no declarado. Si es 1kg = $749/100g, más caro. Confirmar peso."},
+  "aceite_vegetal":   {"name":"Aceite Girasol D1","price":8990,"quantity_display":"und","note":"Confirmar volumen (900ml o 1L)"},
+  "azucar":           {"name":"Azúcar Blanca D1","price":3390,"quantity_display":"und ~500g est."},
+  "cafe_granulado":   {"name":"Café Instantáneo D1","price":9650,"quantity_display":"tamaño C"},
+  "sal":              {"name":"Sal Refisal 1kg D1","price":2900,"quantity_display":"1kg"},
+  "lenteja":          {"name":"Lenteja D1","price":2100,"quantity_display":"500g"},
+  "frijol":           {"name":"Fríjol Bola Roja D1","price":7390,"quantity_display":"500g"},
+  "pasta_spaghetti":  {"name":"Spaghetti/Penne Delizia D1","price":3990,"quantity_display":"~400g est."},
+  "pan_tajado":       {"name":"Pan Tajado D1","price":3650,"quantity_display":"und","note":"Bajó de $4.990"},
+  "bebida_yogurt":    {"name":"Bebida de Yogurt D1","price":4250,"quantity_display":"und"},
+  "chocolate_mesa":   {"name":"Chocolate de Mesa D1","price":10850,"quantity_display":"und"},
+  "enjuague_bucal":   {"name":"Enjuague Cero Alcohol D1","price":6550,"quantity_display":"und"}
 }
