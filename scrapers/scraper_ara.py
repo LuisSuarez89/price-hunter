@@ -171,6 +171,8 @@ class AraScraper(BaseScraper):
             "https://aratiendas.com/wp-content/uploads/{year}/{month:02d}/follelto-ahorro-s{week}.pdf",
             # Patrón sin typo (puede aparecer en otras semanas)
             "https://aratiendas.com/wp-content/uploads/{year}/{month:02d}/folleto-ahorro-s{week}.pdf",
+            # Patrón S28 confirmado: folleto-s{N}-ahorro.pdf (orden diferente)
+            "https://aratiendas.com/wp-content/uploads/{year}/{month:02d}/folleto-s{week}-ahorro.pdf",
             # Patrones históricos anteriores
             "https://aratiendas.com/wp-content/uploads/{year}/{month:02d}/Folleto-S{week}_TiendasARA_Nacional_205x27cm_NACIONAL-copia.pdf",
             "https://aratiendas.com/wp-content/uploads/{year}/{month:02d}/Folleto-S{week}_TiendasARA_Nacional_205x27cm_NACIONAL.pdf",
