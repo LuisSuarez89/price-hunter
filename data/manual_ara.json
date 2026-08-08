@@ -1,22 +1,24 @@
 {
-  "_note": "Precios de Ara extraídos de folletos PDF semanales. Actualizar cuando el scraper del PDF falle.",
-  "_last_updated": "2026-07-04",
-  "_source": "Folleto DIGITAL-NACIONAL S6-VF.pdf (feb 2026)",
+  "_note": "Precios manuales Ara. Última actualización: factura 2026-08-04.",
+  "_last_updated": "2026-08-04",
+  "_source": "Factura Ara 2026-08-04",
   "arroz_blanco": {
-    "name": "Arroz Diana 5.000g",
-    "price": 15900,
-    "discount_pct": 0
+    "name": "Arroz El Cosechero Ara",
+    "price": 8980,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04; gramaje no visible, confirmar presentación"
   },
   "azucar": {
-    "name": "Azúcar blanca 2.500g",
-    "price": 8900,
-    "discount_pct": 0
+    "name": "Azúcar Blanca Ara 2.500g",
+    "price": 8290,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04; promoción $200 aplicada al final"
   },
   "aceite_vegetal": {
-    "name": "Aceite vegetal 900ml",
-    "price": 7200,
+    "name": "Aceite Oliva Ara",
+    "price": 16950,
     "discount_pct": 0,
-    "note": "Presentación de 900ml — más pequeña que Alkosto 3L"
+    "note": "Factura 2026-08-04; reemplaza referencia manual anterior de aceite vegetal 900ml"
   },
   "cafe_granulado": {
     "name": "Café Monumental 500g",
@@ -29,14 +31,16 @@
     "discount_pct": 0
   },
   "pan_tajado": {
-    "name": "Pan Tajado Amapan 450g",
-    "price": 4800,
-    "discount_pct": 0
+    "name": "Pan Hamb Bri Ara",
+    "price": 5720,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
   },
   "jamon": {
-    "name": "Jamón Kai 400g",
-    "price": 9900,
-    "discount_pct": 0
+    "name": "Jam Rica Pan Ara",
+    "price": 12490,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
   },
   "detergente_liquido": {
     "name": "Det Edén Multiusos 1.000ml",
@@ -55,9 +59,123 @@
     "discount_pct": 0
   },
   "huevo_90": {
-    "name": "Huevo tipo AA x30",
-    "price": 14900,
+    "name": "Huevo Tipo A Ara",
+    "price": 10990,
     "discount_pct": 0,
-    "note": "Precio por x30 — ajustar comparación vs 90u de Alkosto"
+    "note": "Factura 2026-08-04; cantidad no visible, confirmar equivalencia vs x90"
+  },
+  "pechuga_pollo": {
+    "name": "Pechuga Pollo Ara",
+    "price": 15102,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04: 0,891 kg x $16.950/kg"
+  },
+  "lomo_cerdo": {
+    "name": "Lomo de Cerdo Ara",
+    "price": 11664,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04: 0,542 kg x $26.900/kg; promoción $2.915 aplicada al final"
+  },
+  "molida_res": {
+    "name": "Carne Res Mo Ara",
+    "price": 15245,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04: 0,509 kg x $29.950/kg"
+  },
+  "costilla_res": {
+    "name": "Costilla Cerdo Ara",
+    "price": 12764,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04: 0,539 kg x $23.680/kg"
+  },
+  "chorizo": {
+    "name": "Chorizo Barb Ara",
+    "price": 7380,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "salchicha": {
+    "name": "Salchicha Pa Ara",
+    "price": 9990,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "queso_mozzarella": {
+    "name": "Queso Camp Col Ara",
+    "price": 8590,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "chocolate_mesa": {
+    "name": "Chocolate AH Ara",
+    "price": 25170,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04: 3 unidades x $8.390"
+  },
+  "tomate": {
+    "name": "Tomate Chonto Ara",
+    "price": 2320,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04: 0,400 kg x $5.800/kg"
+  },
+  "tangelo": {
+    "name": "Tangelo Grande Ara",
+    "price": 9552,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04: 0,995 kg x $9.600/kg"
+  },
+  "atun": {
+    "name": "Atún Agua Ara",
+    "price": 8880,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04: 2 unidades x $4.440"
+  },
+  "conserva": {
+    "name": "Conserva Tte Ara",
+    "price": 6990,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "pan_mogui": {
+    "name": "Pan Mogui Ex Ara",
+    "price": 5990,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "galleta_salad": {
+    "name": "Galleta Salad Ara",
+    "price": 1500,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "arepa": {
+    "name": "Arepa Mi Casa Ara",
+    "price": 1590,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "galleta_ritz": {
+    "name": "Galleta Ritz Ara",
+    "price": 1990,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "yogurt_mora": {
+    "name": "Yaguresmor Ara",
+    "price": 6890,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "papa": {
+    "name": "Papa Fácil Ara",
+    "price": 14990,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
+  },
+  "hamburguesa": {
+    "name": "Hambur Prea Ara",
+    "price": 10390,
+    "discount_pct": 0,
+    "note": "Factura 2026-08-04"
   }
 }
