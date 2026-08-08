@@ -1,27 +1,154 @@
 {
   "_note": "Precios manuales D1. Última actualización: tiquete 2026-07-23.",
   "_last_updated": "2026-07-23",
-  "salmon_filete":    {"name":"Filetes de Salmón D1","price":21950,"quantity_display":"~350g"},
-  "trucha_filete":    {"name":"Trucha Captain Bay D1","price":23900,"quantity_display":"~350g est.","note":"Nuevo jul-2026. Alternativa al salmón"},
-  "pechuga_pollo":    {"name":"Filetes de Pechuga D1","price":16800,"quantity_display":"~500g"},
-  "molida_res":       {"name":"Carne Molida Res 85/15 D1","price":14950,"quantity_display":"~500g"},
-  "costilla_res":     {"name":"Costilla Carnuda D1","price":10850,"quantity_display":"und"},
-  "lomo_cerdo":       {"name":"Lomo de Cerdo D1","price":13450,"quantity_display":"und"},
-  "chorizo":          {"name":"Chorizo Campesino D1","price":4990,"quantity_display":"und"},
-  "salchicha":        {"name":"Salchicha Tradicional D1","price":6750,"quantity_display":"und","note":"Bajó de $9.300"},
-  "jamon":            {"name":"Jamón Sándwich D1","price":9490,"quantity_display":"und"},
-  "hamburguesa":      {"name":"Hamburguesa D D1","price":10400,"quantity_display":"und"},
-  "queso_mozzarella": {"name":"Queso Mozzarella D1","price":10500,"quantity_display":"~500g est."},
-  "arroz_blanco":     {"name":"Arroz Estándar D1","price":7490,"quantity_display":"und","note":"ALERTA: gramaje no declarado. Si es 1kg = $749/100g, más caro. Confirmar peso."},
-  "aceite_vegetal":   {"name":"Aceite Girasol D1","price":8990,"quantity_display":"und","note":"Confirmar volumen (900ml o 1L)"},
-  "azucar":           {"name":"Azúcar Blanca D1","price":3390,"quantity_display":"und ~500g est."},
-  "cafe_granulado":   {"name":"Café Instantáneo D1","price":9650,"quantity_display":"tamaño C"},
-  "sal":              {"name":"Sal Refisal 1kg D1","price":2900,"quantity_display":"1kg"},
-  "lenteja":          {"name":"Lenteja D1","price":2100,"quantity_display":"500g"},
-  "frijol":           {"name":"Fríjol Bola Roja D1","price":7390,"quantity_display":"500g"},
-  "pasta_spaghetti":  {"name":"Spaghetti/Penne Delizia D1","price":3990,"quantity_display":"~400g est."},
-  "pan_tajado":       {"name":"Pan Tajado D1","price":3650,"quantity_display":"und","note":"Bajó de $4.990"},
-  "bebida_yogurt":    {"name":"Bebida de Yogurt D1","price":4250,"quantity_display":"und"},
-  "chocolate_mesa":   {"name":"Chocolate de Mesa D1","price":10850,"quantity_display":"und"},
-  "enjuague_bucal":   {"name":"Enjuague Cero Alcohol D1","price":6550,"quantity_display":"und"}
+  "salmon_filete": {
+    "name": "Filetes de Salmón D1",
+    "price": 21950,
+    "quantity_display": "~350g"
+  },
+  "trucha_filete": {
+    "name": "Trucha Captain Bay D1",
+    "price": 23900,
+    "quantity_display": "~350g est.",
+    "note": "Nuevo jul-2026. Alternativa al salmón"
+  },
+  "pechuga_pollo": {
+    "name": "Filetes de Pechuga D1",
+    "price": 16800,
+    "quantity_display": "~500g"
+  },
+  "molida_res": {
+    "name": "Carne Molida Res 85/15 D1",
+    "price": 14950,
+    "quantity_display": "~500g"
+  },
+  "costilla_res": {
+    "name": "Costilla Carnuda D1",
+    "price": 10850,
+    "quantity_display": "und"
+  },
+  "lomo_cerdo": {
+    "name": "Lomo de Cerdo D1",
+    "price": 13450,
+    "quantity_display": "und"
+  },
+  "chorizo": {
+    "name": "Chorizo Campesino D1",
+    "price": 4990,
+    "quantity_display": "und"
+  },
+  "salchicha": {
+    "name": "Salchicha Tradicional D1",
+    "price": 6750,
+    "quantity_display": "und",
+    "note": "Bajó de $9.300"
+  },
+  "jamon": {
+    "name": "Jamón Sándwich D1",
+    "price": 9490,
+    "quantity_display": "und"
+  },
+  "hamburguesa": {
+    "name": "Hamburguesa D D1",
+    "price": 10400,
+    "quantity_display": "und"
+  },
+  "queso_mozzarella": {
+    "name": "Queso Mozzarella D1",
+    "price": 10500,
+    "quantity_display": "~500g est."
+  },
+  "arroz_blanco": {
+    "name": "Arroz Estándar D1",
+    "price": 7490,
+    "quantity_display": "und",
+    "note": "ALERTA: gramaje no declarado. Si es 1kg = $749/100g, más caro. Confirmar peso."
+  },
+  "aceite_vegetal": {
+    "name": "Aceite Girasol D1",
+    "price": 8990,
+    "quantity_display": "und",
+    "note": "Confirmar volumen (900ml o 1L)"
+  },
+  "azucar": {
+    "name": "Azúcar Blanca D1",
+    "price": 3390,
+    "quantity_display": "und ~500g est."
+  },
+  "cafe_granulado": {
+    "name": "Café Instantáneo D1",
+    "price": 9650,
+    "quantity_display": "tamaño C"
+  },
+  "sal": {
+    "name": "Sal Refisal 1kg D1",
+    "price": 2900,
+    "quantity_display": "1kg"
+  },
+  "lenteja": {
+    "name": "Lenteja D1",
+    "price": 2100,
+    "quantity_display": "500g"
+  },
+  "frijol": {
+    "name": "Fríjol Bola Roja D1",
+    "price": 7390,
+    "quantity_display": "500g"
+  },
+  "pasta_spaghetti": {
+    "name": "Spaghetti/Penne Delizia D1",
+    "price": 3990,
+    "quantity_display": "~400g est."
+  },
+  "pan_tajado": {
+    "name": "Pan Tajado D1",
+    "price": 3650,
+    "quantity_display": "und",
+    "note": "Bajó de $4.990"
+  },
+  "bebida_yogurt": {
+    "name": "Bebida de Yogurt D1",
+    "price": 4250,
+    "quantity_display": "und"
+  },
+  "chocolate_mesa": {
+    "name": "Chocolate de Mesa D1",
+    "price": 10850,
+    "quantity_display": "und"
+  },
+  "enjuague_bucal": {
+    "name": "Enjuague Cero Alcohol D1",
+    "price": 6550,
+    "quantity_display": "und"
+  },
+  "arepa": {
+    "name": "Arepa Minitela D1",
+    "price": 2150,
+    "quantity_display": "und",
+    "note": "Tiquete 2026-07-23"
+  },
+  "mini_croissant": {
+    "name": "Mini Croissant D1",
+    "price": 3990,
+    "quantity_display": "und",
+    "note": "Tiquete 2026-07-23"
+  },
+  "galletas_saltin": {
+    "name": "Galletas Saltín D1",
+    "price": 3950,
+    "quantity_display": "und",
+    "note": "Tiquete 2026-07-23"
+  },
+  "pan_hamburguesa": {
+    "name": "Pan Hamburguesa D1",
+    "price": 2600,
+    "quantity_display": "und",
+    "note": "Tiquete 2026-07-23"
+  },
+  "ponque": {
+    "name": "Ponqué Tradicional D1",
+    "price": 3990,
+    "quantity_display": "und",
+    "note": "Tiquete 2026-07-23"
+  }
 }
